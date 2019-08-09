@@ -25,12 +25,14 @@
 }
 
 .container-grid .card.editMode:hover {
-  /* border: 5px solid green; */
   margin: 0;
 }
 
-.container-grid .card.editMode:hover .card-title {
+.container-grid .card.editMode .card-title {
   display: none;
+}
+.container-grid .card.editMode:hover .card-title {
+  display: block;
 }
 
 .container-grid .card img {
