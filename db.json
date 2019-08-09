@@ -1,0 +1,51 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Farfalle mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/ysoqpNlh4Xwc9LtYayHbjCy2u1K0O3K0B3VnI2HFobPqMA3jubeuQXCSXeHNnHdK95hm_RBaQSvl2DLNsFEXGZx0v06nBVidxnmgpLMihaXhumkZhyZV-OpeN_SbvXIKMmx5rYaF_gg=w1280-h960-no",
+      "ingredients": ["farfalle", "tomaten", "zucchini", "aubergine"]
+    },
+    {
+      "id": 2,
+      "name": "Ofengemüse",
+      "image": "https://lh3.googleusercontent.com/klvaDuyE4nEBwu5vC-xrTM41Uid_Fh7RVaq00uEAz9LCICgP915fnwA7TtJ3joqt7Cqu2X95DNBx1672FwoqdPzs-K8FL_vETW_ReJ_YkMxpUFRxKIfxsAJjvg4u6XQFVdMfZoNsf-g=w1280-h960-no",
+      "ingredients": [
+        "kartoffeln",
+        "süßkartoffeln",
+        "karotten",
+        "paprika",
+        "zucchini",
+        "kartoffeln",
+        "süßkartoffeln",
+        "karotten",
+        "paprika",
+        "zucchini"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Reis mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/jUkTg8c96GRSnWOmgWxIReAgsoq4M3RodaYUWmfNPu4Yj37I6LwuydaWs0NQIDGUlKzHe5Yhp3bQ6lnuqufCd3uhrnBLRe_-HyrSXkdPykEd7N22dd9_BI64CsADRUV3jqNFp7JFTnw=w1346-h1009-no",
+      "ingredients": ["reis", "tomaten", "karotten", "bohnen"]
+    },
+    {
+      "id": 4,
+      "name": "Farfalle mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/ysoqpNlh4Xwc9LtYayHbjCy2u1K0O3K0B3VnI2HFobPqMA3jubeuQXCSXeHNnHdK95hm_RBaQSvl2DLNsFEXGZx0v06nBVidxnmgpLMihaXhumkZhyZV-OpeN_SbvXIKMmx5rYaF_gg=w1280-h960-no",
+      "ingredients": ["farfalle", "nudeln", "tomaten", "zucchini", "aubergine"]
+    },
+    {
+      "id": 5,
+      "name": "Ofengemüse",
+      "image": "https://lh3.googleusercontent.com/klvaDuyE4nEBwu5vC-xrTM41Uid_Fh7RVaq00uEAz9LCICgP915fnwA7TtJ3joqt7Cqu2X95DNBx1672FwoqdPzs-K8FL_vETW_ReJ_YkMxpUFRxKIfxsAJjvg4u6XQFVdMfZoNsf-g=w1280-h960-no",
+      "ingredients": ["kartoffeln", "süßkartoffeln", "karotten", "paprika", "zucchini"]
+    },
+    {
+      "id": 6,
+      "name": "Reis mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/jUkTg8c96GRSnWOmgWxIReAgsoq4M3RodaYUWmfNPu4Yj37I6LwuydaWs0NQIDGUlKzHe5Yhp3bQ6lnuqufCd3uhrnBLRe_-HyrSXkdPykEd7N22dd9_BI64CsADRUV3jqNFp7JFTnw=w1346-h1009-no",
+      "ingredients": ["reis", "tomaten", "karotten", "bohnen"]
+    }
+  ]
+}
