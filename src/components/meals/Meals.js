@@ -4,7 +4,7 @@ import MealContext from '../../context/meal/mealContext'
 
 const Meals = () => {
   const mealContext = useContext(MealContext)
-  const { meals, filtered, loading, getMeals } = mealContext
+  const { meals, filtered, loading, getMeals, clearEditMode } = mealContext
 
   useEffect(() => {
     getMeals()
@@ -13,10 +13,8 @@ const Meals = () => {
 
   if (!meals.length) return <p>Keine Gerichte vorhanden.</p>
 
-  console.log(meals)
-
   return (
-    <div className='container-grid'>
+    <div className='container-grid' onClick={() => clearEditMode()}>
       {filtered
         ? filtered.map(meal => <MealItem key={meal.id} meal={meal} />)
         : meals.map(meal => <MealItem key={meal.id} meal={meal} />)}

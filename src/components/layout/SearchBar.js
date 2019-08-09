@@ -3,7 +3,7 @@ import MealContext from '../../context/meal/mealContext'
 
 const SearchBar = () => {
   const mealContext = useContext(MealContext)
-  const { filterMeals, clearFilter } = mealContext
+  const { filterMeals, clearFilter, editMode, clearEditMode } = mealContext
 
   const text = useRef('')
 
@@ -15,6 +15,19 @@ const SearchBar = () => {
   const onClear = e => {
     clearFilter()
     text.current.value = ''
+  }
+
+  if (editMode) {
+    return (
+      <nav style={{ marginBottom: '5px' }} className='green darken-2'>
+        <div className='nav-wrapper' style={{ padding: '0 15px' }}>
+          <span className='brand-logo'>Gericht zum Bearbeiten auswählen</span>
+          <i className='material-icons right' onClick={() => clearEditMode()}>
+            close
+          </i>
+        </div>
+      </nav>
+    )
   }
 
   return (
