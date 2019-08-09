@@ -37,7 +37,9 @@ const MealItem = ({ meal }) => {
           <span className='card-title'>
             {meal.name}
             {meal.matchingScore && (
-              <span className='secondary-content white-text'>{meal.matchingScore * 100 + '%'}</span>
+              <span className='secondary-content white-text'>
+                {Math.round(meal.matchingScore * 100) + '%'}
+              </span>
             )}
             {(showIngredients || meal.matchingIngredients) && (
               <div className='card-content'>
