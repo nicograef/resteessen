@@ -20,11 +20,6 @@
         "süßkartoffeln",
         "karotten",
         "paprika",
-        "zucchini",
-        "kartoffeln",
-        "süßkartoffeln",
-        "karotten",
-        "paprika",
         "zucchini"
       ]
     },
@@ -38,6 +33,74 @@
         "karotten",
         "bohnen"
       ]
+    },
+    {
+      "name": "Wrap mit Hackfleisch und Avocado",
+      "image": "https://lh3.googleusercontent.com/tiVjL_oscVcu6eSU4jRjuCFDUx5tq9HHxupbl2_hkzZn089IPcbJo_7HIEn3aGacEFY57NHTbzdPSwNGjIWQNWWP05Z1_PM0wkpQ6EeshE5zHN-vKAscKbA7FUsqZDwqx40L_aphNP8=w1120-h1009-no",
+      "ingredients": [
+        "tortilla",
+        "avocado",
+        "hackfleisch",
+        "rucola",
+        "feta"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Maultaschen mit Spinat",
+      "image": "https://lh3.googleusercontent.com/OeomPRifSvs86zK9O9YK2APMnD8bxVQ-q4CNuyyrwkzilAatijAXTrOTPrg_SyUbJZORHYSEyPH_4lxemTccu7cdwu7pMJ5gzF-54h9yeQvnd11dGmcAT1SMtdYeyAaoZDt0cistuCY=w749-h1009-no",
+      "ingredients": [
+        "maultaschen",
+        "spinat"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Maultaschen mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/ionZNLG_wOn_Z39pL_Oje9bGFJn5fWFmwdov-PnvrSjgr0ad2MqxxZRIWfWhkGvV0lfjC9238JL7TAATVXb0ceUR8nYbmW0VnZei6lOu3d1lrBcYiP8vW7QDTcmd-pnIx2hI0S999DI=w757-h1009-no",
+      "ingredients": [
+        "maultaschen",
+        "paprika",
+        "zucchini",
+        "aubergine",
+        "zwiebeln"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Gefüllte Süßkartoffel",
+      "image": "https://lh3.googleusercontent.com/wWNDmWsbHsiMU043wTMsP4llyW8Um6WvxJMO0Rn5yoBbN-SflBCX3GdIa3d6nV3SroFVH7b9Gdux6ZGNDvwaIghlntGCEqJrwp6nTNddsa7U8gPjPdbo77c7sbylzkq6iQTJpyx15bQ=w1059-h1009-no",
+      "ingredients": [
+        "süßkartoffel",
+        "avocado",
+        "salat",
+        "kräuterquark"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Tagliatelle mit Lachs und Spinat",
+      "image": "https://lh3.googleusercontent.com/Vy5Yqqaf_zFqjD_MjnTchr-jKLaDyKVI-OJSt8WjXbEPst7NJnwfkn0WI3U8ua0-vA7gpACDaNXY1gpwUVUMIVvkwAJEY2_EEXMi9vVS1q-E3qeLN3S-qUEcVXbS4J32zYv_6C_b2ho=w757-h1009-no",
+      "ingredients": [
+        "tagliatelle",
+        "lachs",
+        "spinat",
+        "tomaten"
+      ],
+      "id": 8
+    },
+    {
+      "name": "Penne mit Gemüse",
+      "image": "https://lh3.googleusercontent.com/w2pzb9sjfKcjcKCMpQMSzTE6sQHKNWmwJaGXq5rhoJFk6om7Ff55xusMw4yJqqc4V42Ybe0hIv7l_kcCnjjS9p9JnNpQ0Yy_-ZD38ryKcXJVmC2hcYwJnWvlA06-IxRI0ixh1Utw6VE=w757-h1009-no",
+      "ingredients": [
+        "penne",
+        "tomaten",
+        "zucchini",
+        "paprika",
+        "champignons",
+        "zwiebeln"
+      ],
+      "id": 9
     }
   ]
 }

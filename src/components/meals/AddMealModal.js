@@ -20,6 +20,13 @@ const AddMealModal = () => {
     addMeal(newMeal)
 
     M.toast({ html: `${name} wurde hinzugefügt` })
+    clearFields()
+  }
+
+  const clearFields = () => {
+    setName('')
+    setImage('')
+    setIngredients('')
   }
 
   return (
@@ -47,7 +54,7 @@ const AddMealModal = () => {
         </div>
       </div>
       <div className='modal-footer'>
-        <a href='#!' className='modal-close waves-effect btn-flat'>
+        <a href='#!' onClick={() => clearFields()} className='modal-close waves-effect btn-flat'>
           Abbrechen
         </a>{' '}
         <a href='#!' onClick={onSubmit} className='modal-close waves-effect blue btn'>

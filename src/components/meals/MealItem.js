@@ -39,27 +39,27 @@ const MealItem = ({ meal }) => {
             {meal.matchingScore && (
               <span className='secondary-content white-text'>{meal.matchingScore * 100 + '%'}</span>
             )}
+            {(showIngredients || meal.matchingIngredients) && (
+              <div className='card-content'>
+                {meal.ingredients.map((ingredient, i) => (
+                  <span
+                    key={i}
+                    className={
+                      'ingredient white-text darken-2 ' +
+                      (meal.matchingIngredients
+                        ? meal.matchingIngredients.includes(ingredient)
+                          ? 'green'
+                          : 'red'
+                        : 'grey')
+                    }
+                  >
+                    {ingredient}
+                  </span>
+                ))}
+              </div>
+            )}
           </span>
         </div>
-        {(showIngredients || meal.matchingIngredients) && (
-          <div className='card-content'>
-            {meal.ingredients.map((ingredient, i) => (
-              <span
-                key={i}
-                className={
-                  'ingredient white-text darken-2 ' +
-                  (meal.matchingIngredients
-                    ? meal.matchingIngredients.includes(ingredient)
-                      ? 'green'
-                      : 'red'
-                    : 'grey')
-                }
-              >
-                {ingredient}
-              </span>
-            ))}
-          </div>
-        )}
       </div>
     </div>
   )
