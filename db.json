@@ -47,15 +47,6 @@
       "id": 4
     },
     {
-      "name": "Maultaschen mit Spinat",
-      "image": "https://lh3.googleusercontent.com/OeomPRifSvs86zK9O9YK2APMnD8bxVQ-q4CNuyyrwkzilAatijAXTrOTPrg_SyUbJZORHYSEyPH_4lxemTccu7cdwu7pMJ5gzF-54h9yeQvnd11dGmcAT1SMtdYeyAaoZDt0cistuCY=w749-h1009-no",
-      "ingredients": [
-        "maultaschen",
-        "spinat"
-      ],
-      "id": 5
-    },
-    {
       "name": "Maultaschen mit Gemüse",
       "image": "https://lh3.googleusercontent.com/ionZNLG_wOn_Z39pL_Oje9bGFJn5fWFmwdov-PnvrSjgr0ad2MqxxZRIWfWhkGvV0lfjC9238JL7TAATVXb0ceUR8nYbmW0VnZei6lOu3d1lrBcYiP8vW7QDTcmd-pnIx2hI0S999DI=w757-h1009-no",
       "ingredients": [
@@ -201,13 +192,14 @@
     },
     {
       "id": 18,
-      "name": "Shakshuka",
+      "name": "Shakshuka mit Brot",
       "image": "https://lh3.googleusercontent.com/yw1021W-W1mrvQfTrr9A4wfCRmF-74k24gXZ4XPPiY0qd4rBD2qlRtmcKQSlf51z_kxwOsIlrSGwSkusaNFUU0-vz46AZGWUyYw3opYVnDruV4mzMJe_O6LJJ4CF9t-KcZFf9PJbovA=w1346-h1009-no",
       "ingredients": [
         "paprika",
         "zwiebeln",
         "dosentomaten",
-        "eier"
+        "eier",
+        "brot"
       ]
     },
     {
